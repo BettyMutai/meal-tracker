@@ -34,7 +34,7 @@ export class AppComponent {
   public masterMealList: Meal[] = [
     new Meal("Coffee", 0, "I had one cup and used one tea spoon of sugar."),
     new Meal("Cereal and milk", 72, "I had one serving."),
-    new Meal("Pilau", 400, "I took it with salad.")
+    new Meal("Pilau", 600, "I took it with salad.")
   ];
   selectedMeal:  Meal= null;
   showDetails(clickedMeal: Meal) {
